@@ -2,6 +2,10 @@ body {
   background: #0e1129;
   color: #fff;
   padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 #root {
@@ -27,4 +31,15 @@ body {
   text-align: center;
   margin-bottom: 1rem;
   font-size: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (min-width: 1440px) {
+  .title {
+    font-size: 2rem;
+  }
 }
