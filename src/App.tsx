@@ -15,7 +15,10 @@ function App() {
   const [error, setError] = useState<boolean>(false);
 
   const loadUser = async (userName: string) => {
-    const res = await fetch(`https://api.github.com/users/${userName}`);
+    const res = await fetch(`https://api.github.com/users/${userName}`, {
+      method: "GET",
+      headers: { "User-Agent": "request" },
+    });
 
     if (res.status === 404) {
       setError(true);
