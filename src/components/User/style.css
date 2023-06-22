@@ -1,0 +1,41 @@
+.headerPerfil {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerPerfil .imgPerfil {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+}
+
+.headerPerfil h2 {
+  font-size: 1.25rem;
+}
+
+p > span {
+  font-size: 1rem;
+}
+
+.follow {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.number {
+  font-weight: 700;
+}
+
+.btnGithub {
+  background: red;
+  padding: 0.5rem;
+  border-radius: 8px;
+  color: #fff;
+  cursor: pointer;
+  background: #0e1129;
+}
