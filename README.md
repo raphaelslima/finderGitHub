@@ -2,8 +2,6 @@
 
 Dashboard pessoal de controle financeiro.
 
-Link:
-
 ## Tecnologias utilizadas:
 
 <ul>
